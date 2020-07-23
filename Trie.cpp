@@ -57,9 +57,9 @@ int main()
         string key;
         cin>>key;
         if(search(root , key))  
-            cout<<1;
+            cout<<key<<" found";
         else
-            cout<<0;
+            cout<<key<<" not found";
         cout<<endl;
     }
 }
