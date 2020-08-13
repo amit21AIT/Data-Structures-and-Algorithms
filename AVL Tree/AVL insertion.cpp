@@ -18,7 +18,7 @@ class Node{
 		}
 };
 
-Node *rotateRight(Node *root)
+Node *rightRotate(Node *root)
 {
 	Node *newRoot = root->left;
 	root->left = newRoot->right;
